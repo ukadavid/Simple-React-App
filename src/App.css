@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter, sans-serif;
+}
+
+.big-wrapper{
+  background-color: #FFFFFF;
+  padding: 3rem 3rem 0 3rem;
+  text-align: center;
+}
+
+.wrapper{
+  background: #1A1B21;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.header {
+  padding: 3rem 0 0;
+ 
+  text-align: center;
+  color: white;
+
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+
+.header a{
+  text-decoration: none;
+  font-size: 10.24px;
+  color: #F5F5F5;
+  display: block;
+}
+
+.name{
+font-size: 25px;
+font-weight: 700;
+}
+
+.skills{
+  font-size: 12.8px;
+  color: #F3BF99;
+}
+
+
+.email{
+  padding: 9px 13px 9px 11px;
+  border: 1px solid #D1D5DB;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.linkedin{
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  padding: 9px 13px 9px 11px;
+  background: #5093E2;
+  margin-left: 17px;
+}
+
+/* Body Content */
+main, aside{
+  padding-top: 25px;
+  
+}
+
+main h2, aside h2{
+  padding: 5px 0 0 20px;
+  text-align: left;
+  color: #F5F5F5;
+  ;
+
+}
+
+main p, aside p{
+  padding: 10px 20px 0 20px;
+  text-align: left;
+  color: #DCDCDC;
+}
+
+aside p{
+  margin-bottom: 25px;
+}
+
+footer{
+  background: #161619;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > div{
+  margin-left: 24px;
+}
+
+
+
